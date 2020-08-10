@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PathText",
+        "repositoryURL": "https://github.com/zhxf2012/PathText",
+        "state": {
+          "branch": "master",
+          "revision": "b904767d3582adbfd9eee9ba136a2c5f0fcc12be",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831F282924E1784E00F60353 /* PathText in Frameworks */ = {isa = PBXBuildFile; productRef = 831F282824E1784E00F60353 /* PathText */; };
 		FB05B63523C253EB00B01325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05B63423C253EB00B01325 /* AppDelegate.swift */; };
 		FB05B63723C253EB00B01325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB05B63623C253EB00B01325 /* ViewController.swift */; };
 		FB05B63923C253EC00B01325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB05B63823C253EC00B01325 /* Assets.xcassets */; };
@@ -84,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831F282924E1784E00F60353 /* PathText in Frameworks */,
 				FB2C367E239C09CE002DDB93 /* PathText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +250,7 @@
 			name = CurvyText;
 			packageProductDependencies = (
 				FB2C367D239C09CE002DDB93 /* PathText */,
+				831F282824E1784E00F60353 /* PathText */,
 			);
 			productName = CurvyText;
 			productReference = FB2C3660239AA4AC002DDB93 /* CurvyText.app */;
@@ -326,6 +329,9 @@
 				Base,
 			);
 			mainGroup = FB2C3657239AA4AC002DDB93;
+			packageReferences = (
+				831F282724E1784E00F60353 /* XCRemoteSwiftPackageReference "PathText" */,
+			);
 			productRefGroup = FB2C3661239AA4AC002DDB93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -480,7 +486,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = net.robnapier.PathTextDemoMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -502,7 +508,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = net.robnapier.PathTextDemoMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -725,7 +731,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UYPNG254PD;
 				INFOPLIST_FILE = PathTextDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -744,7 +750,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UYPNG254PD;
 				INFOPLIST_FILE = PathTextDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -806,7 +812,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		831F282724E1784E00F60353 /* XCRemoteSwiftPackageReference "PathText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zhxf2012/PathText";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		831F282824E1784E00F60353 /* PathText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 831F282724E1784E00F60353 /* XCRemoteSwiftPackageReference "PathText" */;
+			productName = PathText;
+		};
 		FB05B64223C2542300B01325 /* PathText */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PathText;
