@@ -11,7 +11,7 @@ import SwiftUI
 
 typealias PlatformColor = UIColor
 
-@available(iOS 13, *)
+@available(iOS 13.0, OSX 10.15, *)
 extension PathText: UIViewRepresentable {
     public func makeUIView(context: Context) -> PathTextView { PathTextView() }
 
